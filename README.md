@@ -3,7 +3,8 @@
 Using Goibibo site. In this we will check the Headers, Sign In Frame (which is only accessible from, https://www.goibibo.com/bus/#home) and the colors, alignments, fonts of the elements involved in this.
 
 ## Framework
-Framework comprises of the following files, 
+Framework comprises of the following files.
+
 1. **BrowserFactory.java** - All the code related to Browsers (Firefox, Chrome, Safari & IE) and the respective driver initialization and setup code. 
 2. **Constants.java** - All the constant values are stored here. 
 3. **Helpers.java** - Helper functions required for Automation.
