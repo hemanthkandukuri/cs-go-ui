@@ -14,8 +14,8 @@ Framework comprises of the following files.
 5. **TestBase.java** - All the base set up required for the test suite is defined here, which will be extended by all the test classes.
 
 ## Page Factories
-1. **HomePage.java** - Home Page header's tests
-2. **LoginPage.java** - Sign In Frame's tests
+1. **HomePage.java** - Home Page header's elements
+2. **LoginPage.java** - Sign In Frame's elements
 3. **PopupFrame.java** - Frame which appears requesting registration, need to close it to continue the testing. Better to have page factory of it.
 
 ## Tests
