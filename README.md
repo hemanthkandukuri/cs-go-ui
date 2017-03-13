@@ -2,6 +2,8 @@
 ## Selenium Automation Framework
 Using Goibibo site. In this we will check the Headers, Sign In Frame (which is only accessible from, https://www.goibibo.com/bus/#home) and the colors, alignments, fonts of the elements involved in this.
 
+Using Page Factory Model for the Automation. Will define all the elements of a page ( a basic segregation of web elements that would be used together) in a page and using a PageBase we can intialize all the elements of the page and access them.
+
 ## Framework
 Framework comprises of the following files.
 
