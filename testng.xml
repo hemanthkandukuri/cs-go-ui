@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Cognitive-Ibibo-UI" parallel="tests" thread-count="3">
+	<parameter name="base_url" value="https://www.goibibo.com/" />
+	<test name="Firefox UI Tests">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.hemanth.cognitive.ibibo.ui.HomePageTests" />
+			<class name="com.hemanth.cognitive.ibibo.ui.LoginPageTests" />
+			<class name="com.hemanth.cognitive.ibibo.ui.ColorTests" />
+			<class name="com.hemanth.cognitive.ibibo.ui.AlignmentAndFontTests" />
+		</classes>
+	</test>
+	<!-- <test name="Chrome UI Tests">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.hemanth.cognitive.ibibo.ui.HomePageTests" />
+			<class name="com.hemanth.cognitive.ibibo.ui.LoginPageTests" />
+			<class name="com.hemanth.cognitive.ibibo.ui.ColorTests" />
+			<class name="com.hemanth.cognitive.ibibo.ui.AlignmentAndFontTests" />
+		</classes>
+	</test>
+
+	Use this section only, if the Safari's Selenium Web Driver extension 
+		is installed and enabled in the browser.
+	<test name="Safari UI Tests">
+		<parameter name="browser" value="safari" />
+		<classes>
+			<class name="com.hemanth.cognitive.ibibo.ui.HomePageTests" />
+			<class name="com.hemanth.cognitive.ibibo.ui.LoginPageTests" />
+			<class name="com.hemanth.cognitive.ibibo.ui.ColorTests" />
+			<class name="com.hemanth.cognitive.ibibo.ui.AlignmentAndFontTests" />
+		</classes>
+	</test> -->
+</suite>
